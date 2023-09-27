@@ -1,0 +1,38 @@
+"C:\Users\PC RAT\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/PC RAT/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe" "-DCMAKE_TOOLCHAIN_FILE=C:\Users\PC RAT\.vcpkg-clion\vcpkg\scripts\buildsystems\vcpkg.cmake" -G Ninja -S "C:\Users\PC RAT\CLionProjects\Hola_bola" -B "C:\Users\PC RAT\CLionProjects\Hola_bola\cmake-build-debug"
+-- Running vcpkg install
+Detecting compiler hash for triplet x64-windows...
+The following packages will be built and installed:
+    box2d:x64-windows -> 2.4.1#3 -- C:\Users\PC RAT\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\box2d\bef68937d8b4101d0df330a399a7fc043f7ec5e5
+  * vcpkg-cmake:x64-windows -> 2023-05-04 -- C:\Users\PC RAT\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\vcpkg-cmake\88a7058fc7fa73a9c4c99cfcae9d79e2abf87a5a
+  * vcpkg-cmake-config:x64-windows -> 2022-02-06#1 -- C:\Users\PC RAT\.vcpkg-clion\vcpkg\buildtrees\versioning_\versions\vcpkg-cmake-config\8d54cc4f487d51b655abec5f9c9c3f86ca83311f
+Additional packages (*) will be modified to complete this operation.
+Restored 3 package(s) from C:\Users\PC RAT\AppData\Local\vcpkg\archives in 109 ms. Use --debug to see more details.
+Installing 1/3 vcpkg-cmake-config:x64-windows...
+Elapsed time to handle vcpkg-cmake-config:x64-windows: 6.03 ms
+Installing 2/3 vcpkg-cmake:x64-windows...
+Elapsed time to handle vcpkg-cmake:x64-windows: 11.5 ms
+Installing 3/3 box2d:x64-windows...
+Elapsed time to handle box2d:x64-windows: 24.1 ms
+Total install time: 41.7 ms
+box2d provides CMake targets:
+
+  # this is heuristically generated, and may not be correct
+  find_package(box2d CONFIG REQUIRED)
+  target_link_libraries(main PRIVATE box2d::box2d)
+
+-- Running vcpkg install - done
+-- The C compiler identification is MSVC 19.37.32824.0
+-- The CXX compiler identification is MSVC 19.37.32824.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (6.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: C:/Users/PC RAT/CLionProjects/Hola_bola/cmake-build-debug
