@@ -1,0 +1,3 @@
+C:/Users/PC RAT/CLionProjects/poligonos/cmake-build-debug/CMakeFiles/poligonos.dir
+C:/Users/PC RAT/CLionProjects/poligonos/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/PC RAT/CLionProjects/poligonos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
